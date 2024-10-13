@@ -1,6 +1,6 @@
 from itertools import zip_longest
 
-## DESAFIO 1
+## DESAFIO
 
 #Usando as listas abaixo:
 # Estamos extraindo preços de um site de produtos e queremos armazenar as informações encontradas, porém a pesquisa foi encontrada em momentos diferentes, assim acabamos com duas listas diferentes, favor criar uma mensagem que diz o nome e valor produto, como as mensagens abaixo:
