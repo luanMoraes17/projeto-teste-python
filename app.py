@@ -1,26 +1,22 @@
-# ​ Desafios 🥇
-''' 
-Desafio #1 Crie uma lista que tenha os nomes dos 3 objetos que você mais usa durante o dia e imprima ele na tela
-Desafio #2 Usando apenas uma linha de código, crie uma lista de 10 a 131
-Desafio #3 Imprima na tela o resultado da combinação da lista do desafio 1 e desafio 2
-Desafio #4 Crie uma lista de listas(matriz) que tenha os nomes dos 3 objetos
- que você mais usa durante o dia, mas agora dentro de cada item você vai colocar 
-uma informação extra, coloque o valor em reais desse objeto também e imprima ele 
-na tela  
-'''
+from itertools import zip_longest
 
-#Desafio 1:
-objetos_utilizados = ["Celular", "Caneta","relogio"]
-print(objetos_utilizados)
+## DESAFIO 1
 
-#Desafio 2:
-lista = list(range(10,132))
-print(lista)
+#Usando as listas abaixo:
+# Estamos extraindo preços de um site de produtos e queremos armazenar as informações encontradas, porém a pesquisa foi encontrada em momentos diferentes, assim acabamos com duas listas diferentes, favor criar uma mensagem que diz o nome e valor produto, como as mensagens abaixo:
 
-#Desafio 3:
-print(objetos_utilizados + lista)
+# Produto: Produto 1 encontrado no valor de R$500,00
 
-#Desafio 4:
-itens = [["caneta",3],["Celular",3500],["relogio",1250]]
-print(itens)
-print(itens[2][0])
+# Produto: Produto 2 encontrado no valor de R$1500,00
+
+# Produto: Produto 3 encontrado no valor de R$2700,00
+
+# Produto: Produto 4 encontrado no valor de R$5000,00
+
+# Produto: Produto 5 encontrado no valor de None  
+
+produtos = ['Produto 1', 'Produto 2', 'Produto 3', 'Produto 4', 'Produto 5']
+precos = ['R$500,00', 'R$1500,00', 'R$2700,00', 'R$5000,00']
+
+for produto, preco in zip_longest (produtos , precos):
+    print(f'Produto:{produto} encontrado no valor de R$ {preco}') 

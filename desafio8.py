@@ -23,4 +23,4 @@ print(objetos_utilizados + lista)
 #Desafio 4:
 itens = [["caneta",3],["Celular",3500],["relogio",1250]]
 print(itens)
-print(itens[2][0])
+print(itens[1][1])
