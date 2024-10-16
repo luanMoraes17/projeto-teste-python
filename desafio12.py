@@ -24,4 +24,3 @@ def salario (vagas):
 
 print(list(filter(salario, vagas)))
 print(list(map(salario, vagas )))
-
