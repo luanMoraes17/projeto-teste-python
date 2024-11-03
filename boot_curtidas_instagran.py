@@ -9,12 +9,12 @@ while True:
     # 2 - Entrar com meu usuário
     pyautogui.click(327,360,duration=1)
     sleep(1)
-    pyautogui.typewrite('11948674062')
+    pyautogui.typewrite('xxxxxxx')
     sleep(1)
     # 3 - Entrar com a minha senha
     pyautogui.click(335,411,duration=1)
     sleep(1)
-    pyautogui.typewrite('luan050247')
+    pyautogui.typewrite('lxxxxxxx')
     sleep(1)
     # 4 - Clicar em "log in"
     pyautogui.click(448,473,duration=1)
