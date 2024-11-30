@@ -9,7 +9,7 @@
 
 ###
 
-<img align="left" height="150" src="https://static01.nyt.com/images/2022/01/06/business/05Techfix-illo-esp-1/05Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale"  />
+<img align="right" height="150" src="https://static01.nyt.com/images/2022/01/06/business/05Techfix-illo-esp-1/05Techfix-illo-articleLarge.gif?quality=75&auto=webp&disable=upscale"  />
 
 ###
 
