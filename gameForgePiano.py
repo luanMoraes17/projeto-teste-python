@@ -1,3 +1,5 @@
+# https://gameforge.com/en-US/littlegames/xmas-magic-tiles/
+
 # quais são os passos manuais que devo transformar em código
 import pyautogui
 import keyboard
