@@ -20,7 +20,7 @@ Acima de 50cm Favor consultar na recepção
 
 # Apenas imprima na tela a mensagem apropriada, nada além disso é necesário'''
 
-cabelo = 35
+cabelo = 20
 if cabelo <= 20:
     print('Se seu cabelo estiver com ou abaixo de 20cm você paga o valor de R$50,00')
 elif cabelo >=21 and cabelo <= 30:
