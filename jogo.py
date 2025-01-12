@@ -1,3 +1,33 @@
+# Este é um jogo simples onde você:
+# Controla um quadrado azul usando as setas do teclado (← e →)
+# Deve desviar dos obstáculos vermelhos que caem
+# Ganha pontos cada vez que um obstáculo passa sem atingir você
+# O jogo termina se você colidir com um obstáculo
+# Para jogar, você precisará:
+# Ter o Python instalado
+
+# >>>>>>>>>>>Instalar o Pygame usando o comando: pip install pygame<<<<<<<<<<<<<<<<
+# Salvar o código em um arquivo chamado jogo.py
+# Executar o arquivo
+# Características do jogo:
+# O jogador se move horizontalmente na parte inferior da tela
+# Obstáculos caem do topo da tela
+# A pontuação aumenta quando você consegue desviar dos obstáculos
+# A velocidade é constante (você pode modificar as variáveis jogador_velocidade e obstaculo_velocidade para ajustar a dificuldade)
+# Você pode personalizar o jogo alterando:
+# As cores
+# O tamanho da tela
+# A velocidade dos elementos
+# O tamanho do jogador e dos obstáculos
+# Este é um exemplo básico que pode ser expandido com mais recursos como:
+# Diferentes níveis de dificuldade
+# Sons
+# Múltiplos obstáculos
+# Power-ups
+# Menu principal
+# Sistema de vidas
+
+
 import pygame
 import random
 
